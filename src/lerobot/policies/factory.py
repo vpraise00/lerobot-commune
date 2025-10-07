@@ -62,6 +62,10 @@ def get_policy_class(name: str) -> PreTrainedPolicy:
         from lerobot.policies.pi0fast.modeling_pi0fast import PI0FASTPolicy
 
         return PI0FASTPolicy
+    elif name == "heuristic":
+        from lerobot.policies.heuristic.modeling_heuristic import HeuristicPolicy
+
+        return HeuristicPolicy
     elif name == "sac":
         from lerobot.policies.sac.modeling_sac import SACPolicy
 

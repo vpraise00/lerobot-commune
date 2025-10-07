@@ -165,6 +165,7 @@ lerobot-setup-motors="lerobot.setup_motors:main"
 lerobot-teleoperate="lerobot.teleoperate:main"
 lerobot-eval="lerobot.scripts.eval:main"
 lerobot-train="lerobot.scripts.train:main"
+lerobot-save-waypoints="lerobot.scripts.lerobot_save_waypoints:main"
 
 # ---------------- Tool Configurations ----------------
 [tool.setuptools.packages.find]
