@@ -1,0 +1,9 @@
+- cameras
+
+top: index = 0
+wrist: index = 2
+
+- motor
+
+follower = /dev/ttyACM0
+leader = /dev/ttyACM1
